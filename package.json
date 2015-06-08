@@ -1,6 +1,6 @@
 {
   "name": "atm-scp",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "通过scp命令上传指定文件夹到远程地址",
   "main": "index.js",
   "scripts": {
