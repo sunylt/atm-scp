@@ -120,7 +120,7 @@ module.exports = function(opts){
                         if(opts.force){  // 如果配置中设置强行上传,则继续执行
                             resolve();
                         }else{  // 否则终止运行
-                            throw new Error('目录已被锁定')
+                            throw new Error('目录已被锁定');
                         }
                     }else{  // 远程文件没有锁定则继续执行
                         resolve();
